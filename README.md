@@ -6,9 +6,9 @@ This project contains the 4 methods to achieve the InterProcess Communication us
   Messages are stored on the queue until their recipient retrieves them. Message queues are quite useful for interprocess communication
   and are used by most operating systems.
  
-2) Ordinary Pipe:
-   ordinary pipes are unidirectional, allowing only one-way communication-Ordinary pipes allow two processes to communicate in standard
-   producer– consumer fashion: the producer writes to one end of the pipe (the write-end) and the consumer reads from the other end (the read-end).
+2)Ordinary Pipe:
+  ordinary pipes are unidirectional, allowing only one-way communication-Ordinary pipes allow two processes to communicate in standard
+  producer– consumer fashion: the producer writes to one end of the pipe (the write-end) and the consumer reads from the other end (the read-end).
    
 3)Named Pipe:
   A named pipe is a named, one-way or duplex pipe for communication between the pipe server and one or more pipe clients.
