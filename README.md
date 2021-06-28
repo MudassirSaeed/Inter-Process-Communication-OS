@@ -1,5 +1,6 @@
 # Inter-Process-Communication-OS
-This project contains the 4 methods to achieve the InterProcess Communication
+This project contains the 4 methods to achieve the InterProcess Communication using C.
+
 1)Message passing:
   Message passing model allows multiple processes to read and write data to the message queue without being connected to each other.
   Messages are stored on the queue until their recipient retrieves them. Message queues are quite useful for interprocess communication
